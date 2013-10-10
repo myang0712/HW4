@@ -1,5 +1,4 @@
 ﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" %>
-
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -16,7 +15,8 @@
         Salary Calculator<br />
         <br />
     </h2>
-        
+       
+	   
         <p style="margin-left: 240px">
         
         Hourly Wage:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
