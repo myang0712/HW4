@@ -21,7 +21,7 @@ Partial Class _Default
         aftertaxDeduction = CDbl(TBafterTaxDeduction.Text)
 
         'calculate pretax salary
-        pretaxSalary = hourlyWage * hoursWorked + pretaxDeduction
+        pretaxSalary = hourlyWage * hoursWorked - pretaxDeduction
 
         'test if pre-tax salary is greater than $500
         If pretaxSalary < 500 Then
