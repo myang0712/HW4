@@ -29,7 +29,7 @@
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TBnumberOfHour" ErrorMessage="*Please enter hours worked"></asp:RequiredFieldValidator>
         <br />
         <br />
-        Befor Tax Deduction:&nbsp;&nbsp;&nbsp;
+        Before Tax Deduction:&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="TBpreTaxDeduction" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TBafterTaxDeduction" ErrorMessage="*Please enter before tax deduction"></asp:RequiredFieldValidator>
         <br />
